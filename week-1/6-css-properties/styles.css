@@ -10,7 +10,7 @@
 .message--unread {
   border-left: 3px solid blue;
 }
-.message__time--old {
+.message:first-child {
   opacity: 0.3;
 }
 .message__content {
