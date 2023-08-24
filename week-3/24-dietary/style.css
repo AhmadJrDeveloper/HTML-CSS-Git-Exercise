@@ -1,0 +1,5 @@
+.list input,
+label {
+  display: flex;
+  padding-bottom: 5px;
+}
