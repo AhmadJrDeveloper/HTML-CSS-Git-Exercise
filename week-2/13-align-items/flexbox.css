@@ -7,7 +7,7 @@
   align-items: center;
 }
 .countries--second {
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: end;
 }
 .countries--third {
