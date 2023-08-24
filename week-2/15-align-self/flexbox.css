@@ -14,8 +14,19 @@
 .countries--third {
   align-items: center;
 }
+.countries--third li:first-child,
+.countries--third li:last-child {
+  align-self: self-start;
+}
 .countries--third li:nth-child(2),
 .countries--third li:nth-child(3),
 .countries--third li:nth-child(4) {
-  align-items: end;
+  align-self: self-end;
+}
+.countries--fourth {
+  flex-direction: column;
+  align-items: start;
+}
+.countries--fourth li:last-child {
+  align-self: center;
 }
