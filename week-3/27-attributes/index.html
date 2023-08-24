@@ -42,7 +42,7 @@
               <legend>Billing Address</legend>
               <p>
                 <label for="billing-address-1">Address Line 1</label>
-                <input type="text" name="billing-address-1" id="billing-address-1" />
+                <input type="text" name="billing-address-1" id="billing-address-1" required />
               </p>
               <p>
                 <label for="billing-address-2">Address Line 2</label>
@@ -61,7 +61,7 @@
               <legend>Delivery Address</legend>
               <p>
                 <label for="delivery-address-1">Address Line 1</label>
-                <input type="text" name="delivery-address-1" id="delivery-address-1" />
+                <input type="text" name="delivery-address-1" id="delivery-address-1" required />
               </p>
               <p>
                 <label for="delivery-address-2">Address Line 2</label>
@@ -81,7 +81,13 @@
               </p>
               <p>
                 <label for="delivery-country">Country</label>
-                <input type="text" name="delivery-country" id="delivery-country" />
+                <input
+                  type="read"
+                  name="delivery-country"
+                  id="delivery-country"
+                  value="United Kingdom"
+                  readonly
+                />
               </p>
               <fieldset>
                 <legend>Delivery Options</legend>
@@ -91,6 +97,8 @@
                     name="delivery-option"
                     id="delivery-option"
                     value="standard"
+                    checked
+                    disabled
                   />
                   Royal Mail
                 </label>
