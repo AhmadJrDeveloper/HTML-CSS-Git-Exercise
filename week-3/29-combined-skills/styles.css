@@ -2,3 +2,41 @@
 footer span {
   color: red;
 }
+@media screen and (max-width: 992px) {
+  .hero__title {
+    font-size: larger;
+  }
+}
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .views {
+    display: flex;
+    align-items: baseline;
+  }
+  .views a {
+    padding-left: 15px;
+  }
+  .views a:last-child {
+    margin-left: auto;
+  }
+}
+
+.radios {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+.site-content {
+  max-width: 50em;
+  line-height: 25px;
+  justify-content: center;
+}
